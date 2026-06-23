@@ -20,8 +20,7 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     "noEmit": true,
-    "baseUrl": ".",
-    "paths": {}
+    "ignoreDeprecations": "6.0"
   },
   "include": ["src"],
   "exclude": ["src/**/__tests__/**"]

@@ -1,7 +1,7 @@
 /**
  * Internal helpers shared across the animation components in this folder.
  *
- * See `../CLAUDE.md` for the catalog of metaphors, the DRY-candidate
+ * See `../AUTHORING.md` for the catalog of metaphors, the DRY-candidate
  * registry, and conventions every new animation should follow.
  */
 

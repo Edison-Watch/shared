@@ -1,7 +1,7 @@
 /**
  * Verdict badge - the green check or red X circle that pops in at the
  * gateway when a packet arrives. The single most ubiquitous shared
- * metaphor in the animation set (see CLAUDE.md metaphor A).
+ * metaphor in the animation set (see AUTHORING.md metaphor A).
  *
  * Each call wraps the badge in a `<g className="<prefix>-vN">` whose
  * keyframe handles the pop-in (`scale(0.5) opacity:0` → `scale(1)

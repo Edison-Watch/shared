@@ -1,4 +1,4 @@
-# @edison/shared
+# @edison-watch/shared
 
 [![CI](https://github.com/Edison-Watch/shared/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/Edison-Watch/shared/actions/workflows/ci.yaml)
 [![Coverage](https://codecov.io/gh/Edison-Watch/shared/graph/badge.svg)](https://codecov.io/gh/Edison-Watch/shared)
@@ -39,16 +39,16 @@ npm run build-storybook
 
 ## Package Status
 
-`@edison/shared` is not currently published to npm. Edison Watch repositories consume it from source, including through Git submodules. The package manifest and build output are maintained so that this can change without redesigning the public module surface.
+`@edison-watch/shared` is not currently published to npm. Edison Watch repositories consume it from source, including through Git submodules. The package manifest and build output are maintained so that this can change without redesigning the public module surface.
 
 Supported package entrypoints include:
 
-- `@edison/shared`
-- `@edison/shared/auth`, `@edison/shared/config`, and `@edison/shared/crypto`
-- `@edison/shared/ui` and `@edison/shared/ui/*`
-- `@edison/shared/hooks/*`
-- `@edison/shared/agent-registry`, `@edison/shared/animations`, and `@edison/shared/svg`
-- `@edison/shared/theme/tokens.css`
+- `@edison-watch/shared`
+- `@edison-watch/shared/auth`, `@edison-watch/shared/config`, and `@edison-watch/shared/crypto`
+- `@edison-watch/shared/ui` and `@edison-watch/shared/ui/*`
+- `@edison-watch/shared/hooks/*`
+- `@edison-watch/shared/agent-registry`, `@edison-watch/shared/animations`, and `@edison-watch/shared/svg`
+- `@edison-watch/shared/theme/tokens.css`
 
 Consumers of the UI and auth modules must provide the declared peer dependencies: React, React DOM, React Router, and Supabase JS.
 
@@ -75,7 +75,7 @@ npm run test:visual:update
 
 ## Contributing
 
-Issues and focused contributions are welcome. Please open an issue with a clear description, expected behavior, and a minimal reproduction where possible. Broader organization-level contribution and security policies will be published separately.
+Issues and focused contributions are welcome. Please open an issue with a clear description, expected behavior, and a minimal reproduction where possible. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the development workflow and [`SECURITY.md`](SECURITY.md) for reporting vulnerabilities.
 
 ## License
 
